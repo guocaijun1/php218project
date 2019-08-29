@@ -18,4 +18,6 @@ Route::get('/', function () {
 Route::resource("/adminuser","Admin\UserController");
 //继祥开发订单模块
 Route::resource("/adminorder","Admin\OrderController");
+//军哥开发类别模块
+Route::resource("/admincate","Admin\CateController");
 
