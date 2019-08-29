@@ -82,4 +82,8 @@ class CateController extends Controller
     {
         //
     }
+    //继祥 开发的类别删除 del
+    public function del(){
+        echo "这是删除";
+    }
 }
