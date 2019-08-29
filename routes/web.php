@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//用户模块
+Route::resource("/adminuser","Admin\UserController");
