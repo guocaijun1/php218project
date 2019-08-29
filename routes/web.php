@@ -20,4 +20,7 @@ Route::resource("/adminuser","Admin\UserController");
 Route::resource("/adminorder","Admin\OrderController");
 //军哥开发类别模块
 Route::resource("/admincate","Admin\CateController");
+//继祥 开发的dev分支 广告模块
+Route::resource("/adminads","Admin\AdsController");
+
 
